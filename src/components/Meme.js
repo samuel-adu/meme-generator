@@ -34,7 +34,7 @@ function Meme() {
   }
 
   return (
-    <main className="">
+    <main className="container">
       <div className="form">
         <input
           className="form__input"
@@ -53,6 +53,7 @@ function Meme() {
           onChange={handleChange}
         />
       </div>
+
       <button onClick={getNewMeme} className="form__btn">
         Get a new meme image 🖼
       </button>
